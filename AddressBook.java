@@ -15,7 +15,7 @@ public class AddressBook {
 	        addressBook.addContactList();
 	    }
 
-	    public void display(ArrayList<ContactItems> contactList)//Display Address book
+	    public void display(ArrayList<ContactItems> contactList)
 	    {
 	        for (ContactItems contactItems : contactList)
 	        {
@@ -136,7 +136,6 @@ public class AddressBook {
 	        }
 	    }
 
-	    //method to delete contacs in AddressBook
 	    public void deleteContact(ArrayList<ContactItems> contactList)
 	    {
 	        System.out.println("Enter the first name of the contact you wish to delete");
